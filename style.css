@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+header{
+    background: #000;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 100px;
+}
+.logo{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.8em; 
+    transition: 0.7s ease;   
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+.navdon a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;    
+    font-weight: 400;
+    padding-left: 30px;
+
+}
+.navdon a:hover{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: inline-block;
+    padding:10px 15px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    transform: scale(1);
+    transition: 0.7s ease;
+}
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/saloo.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #000;
+    font-size: 2.4em;
+    font-weight: 400;
+} 
+.main h3{
+    color: #fff;
+    font-size: 1.9em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main-btn{
+    color: whitesmoke;
+    background-color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.9375em 2.1375em;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    transition: 0.7 ease;
+}
+.main-btn:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+.social-icons a{
+    color: whitesmoke;
+    font-size: 1.7em;
+    padding-right: 30px ;
+}
+.social-icons a:hover{
+    color: black;
+    font-size: 1.7em;
+    padding-right: 30px ;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 2.2em;
+    font-weight: 400;
+    margin-bottom:30 ;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: whitesmoke;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /30%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}   
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    color: #000;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    color: #000;
+    font-size: 1em;
+    font-weight: 500;
+    text-align: center;
+}
+.info h3{
+    color: #000;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-align: center;
+}
+.footer{
+    background-color: #000000;
+    color: whitesmoke;
+    display: flex;
+    padding: 1.7em;
+    justify-content: space-between;
+    
+}
+.foorer-copy{
+    font-size: 1em;
+    font-weight: 400;
+}
